@@ -2,19 +2,20 @@
 <html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="index.css">
 
 <head>
-  <link rel="stylesheet" href="index.css">
+  <h1>Personal Website</h1>
 
-  <header1>Personal Website</header1>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
-  <!-- Navigation -->
-  <div class="topnav">
-      <a class="active" href="index.html">Home</a>
-      <a href="projects/projects.html">Projects</a>
-      <a href="contact/contact.html">Contact</a>
-  </div>
+  <div id="topnav"></div>
+
+  <script>
+    $(function(){
+      $("#topnav").load("nav.html");
+    });
+  </script>
 
 </head>
 
