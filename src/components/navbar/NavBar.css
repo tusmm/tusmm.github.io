@@ -3,13 +3,15 @@ body {
 }
 
 .nav {
-    background-color: blue;
-    color: white;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: 'Courier Bold', Courier Bold, monospace;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
-    padding: 0 1rem;
+    padding: 0 2rem;
+    position: sticky;
 }
 
 .site-title {
@@ -30,7 +32,7 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-    padding: .25rem;
+    padding: 1rem;
 }
 
 .nav li.active {
