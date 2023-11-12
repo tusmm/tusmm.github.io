@@ -1,11 +1,14 @@
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
-import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
+import Card from 'react-bootstrap/Card';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import vanguard from "../assets/img/vanguard-logo.jpeg";
 
 export const Skills = () => {
   const responsive = {
@@ -28,37 +31,71 @@ export const Skills = () => {
     }
   };
 
+  const experienceData = [
+    {
+      'src': vanguard,
+      'alt': 'Card image',
+      'title': "Cloud Engineer Co-op",
+      'text1': "vanguard test",
+      'url': ""
+    },
+    {
+      'src': meter1,
+      'alt': 'Card image',
+      'title': "Cloud Engineer Co-op",
+      'text1': "vanguard test",
+      'url': ""
+    },
+    {
+      'src': vanguard,
+      'alt': 'Card image',
+      'title': "Cloud Engineer Co-op",
+      'text1': "vanguard test",
+      'url': ""
+    },
+    {
+      'src': vanguard,
+      'alt': 'Card image',
+      'title': "Cloud Engineer Co-op",
+      'text1': "vanguard test",
+      'url': ""
+    }
+  ]
+
   return (
     <section className="experience" id="experience">
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
-                    <div className="experience-bx wow zoomIn">
-                        <h2>Experiences</h2>
-                        <p>here are some of my experiences<br></br>feel free to reach out with any questions :)</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme experience-slider">
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                        </Carousel>
-                    </div>
-                </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="experience-bx wow zoomIn">
+              <h2>Experiences</h2>
+              <p>here are some of my experiences<br></br>feel free to reach out with any questions :)</p>
+
+              <Row xs={1} md={2} className="g-4">
+                {experienceData.map((experience, idx) => (
+                  <Col key={idx}>
+                    <Card bg='dark'
+                          text='dark'
+                          style={{}}
+                          className="bg-dark text-white">
+                      <Card.Img variant="top" 
+                                src={experience.src}
+                                alt={experience.alt} />
+                      <Card.Body>
+                        <Card.Title>{experience.title}</Card.Title>
+                        <Card.Text>
+                        {experience.text1}
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                ))}
+              </Row>
             </div>
+          </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+      </div>
+      <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
   )
 }
