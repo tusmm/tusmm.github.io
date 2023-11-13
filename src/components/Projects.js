@@ -11,32 +11,32 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Qwerkey",
+      description: "I worked in a group of five to develop a full stack application for a semester long project. Utilizing Git, Spring Boot, Angular, and an Agile methodology, we were created a Keyboard E-Commerce store that ultimately won first amongst 40 other students.",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
+      title: "Hits2Fits",
       description: "Design & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
+      title: "Love @ First Bite",
       description: "Design & Development",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
+      title: "Wall Scraper",
       description: "Design & Development",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
+      title: "Hoppers (Academic)",
       description: "Design & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
+      title: "Symptom Tracker",
       description: "Design & Development",
       imgUrl: projImg3,
     },

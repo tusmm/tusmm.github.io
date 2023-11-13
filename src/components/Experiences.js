@@ -9,6 +9,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import vanguard from "../assets/img/vanguard-logo.jpeg";
+import Ratio from 'react-bootstrap/Ratio'
 
 export const Skills = () => {
   const responsive = {
@@ -78,9 +79,11 @@ export const Skills = () => {
                           text='dark'
                           style={{}}
                           className="bg-dark text-white">
-                      <Card.Img variant="top" 
+                        <Ratio aspectRatio={9 / 16}>
+                          <Card.Img variant="top" 
                                 src={experience.src}
                                 alt={experience.alt} />
+                        </Ratio>
                       <Card.Body>
                         <Card.Title>{experience.title}</Card.Title>
                         <Card.Text>
