@@ -37,30 +37,30 @@ export const Skills = () => {
   const experienceData = [
     {
       'src': vanguard,
-      'alt': 'Card image',
-      'title': "Cloud Engineer Co-op",
-      'text1': "vanguard test",
+      'alt': 'Image of Vanguard',
+      'title': "Cloud Engineer Co-op · Vanguard",
+      'text1': "I had the opportunity to work on a platform team as a Cloud Engineer in Vanguard. I worked with multiple AWS Services, deployed feature requests, and am currently developing a Python library for internal usage.",
       'url': ""
     },
     {
       'src': meter1,
       'alt': 'Card image',
-      'title': "Cloud Engineer Co-op",
-      'text1': "vanguard test",
+      'title': "Software Engineer Intern · M&T Bank",
+      'text1': "At M&T Bank, another intern and I worked on building an internal Full Stack application from scratch using Spring Boot, Angular, and SQL. I worked mostly on the authentication and back end services.",
       'url': ""
     },
     {
       'src': vanguard,
       'alt': 'Card image',
-      'title': "Cloud Engineer Co-op",
-      'text1': "vanguard test",
+      'title': "CS Homework Grader · RIT",
+      'text1': "I prepared weekly Python scripts and grading scales to automate the grading of 47 students’ homework assignments while boosting my ability to give effective and detailed feedback and ability to explain technical concepts.",
       'url': ""
     },
     {
       'src': vanguard,
       'alt': 'Card image',
-      'title': "Cloud Engineer Co-op",
-      'text1': "vanguard test",
+      'title': "Computational Physicist Research Intern · Tufts University",
+      'text1': "Worked within a team of 5 developers and 8 polymer researchers to simulate the wetting phenomena through a replicated contact angle experiment by developing a shape optimization program.",
       'url': ""
     }
   ]
@@ -78,18 +78,18 @@ export const Skills = () => {
                 {experienceData.map((experience, idx) => (
                   <Col key={idx}>
                     <Card bg='dark'
-                          text='dark'
-                          style={{}}
-                          className="bg-dark text-white">
-                        <Ratio aspectRatio={9 / 16}>
-                          <Card.Img variant="top" 
-                                src={experience.src}
-                                alt={experience.alt} />
-                        </Ratio>
+                      text='dark'
+                      style={{}}
+                      className="bg-dark text-white">
+                      <Ratio aspectRatio={9 / 16}>
+                        <Card.Img variant="top"
+                          src={experience.src}
+                          alt={experience.alt} />
+                      </Ratio>
                       <Card.Body>
                         <Card.Title>{experience.title}</Card.Title>
                         <Card.Text>
-                        {experience.text1}
+                          {experience.text1}
                         </Card.Text>
                       </Card.Body>
                     </Card>
