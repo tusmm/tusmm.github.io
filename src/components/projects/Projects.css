@@ -78,6 +78,7 @@
     border-radius: 30px;
     overflow: hidden;
     margin-bottom: 24px;
+    max-height: 265px;
   }
   .proj-imgbx::before {
     content: "";

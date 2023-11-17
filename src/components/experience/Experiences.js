@@ -1,8 +1,5 @@
 import './Experiences.css'
 
-import meter1 from "../../assets/img/meter1.svg";
-import meter2 from "../../assets/img/meter2.svg";
-import meter3 from "../../assets/img/meter3.svg";
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../../assets/img/arrow1.svg";
 import arrow2 from "../../assets/img/arrow2.svg";
@@ -11,6 +8,9 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import vanguard from "../../assets/img/vanguard-logo.jpeg";
+import mtb from "../../assets/img/M&TBank.jpg";
+import ritcs from "../../assets/img/computing-departments-jumbotron.jpg";
+import tufts from "../../assets/img/tuftsposter.png";
 import Ratio from 'react-bootstrap/Ratio'
 
 export const Skills = () => {
@@ -37,30 +37,30 @@ export const Skills = () => {
   const experienceData = [
     {
       'src': vanguard,
-      'alt': 'Image of Vanguard',
+      'alt': 'Vanguard, an investment firm, logo',
       'title': "Cloud Engineer Co-op · Vanguard",
       'text1': "I had the opportunity to work on a platform team as a Cloud Engineer in Vanguard. I worked with multiple AWS Services, deployed feature requests, and am currently developing a Python library for internal usage.",
       'url': "https://investor.vanguard.com/corporate-portal"
     },
     {
-      'src': meter1,
-      'alt': 'Card image',
+      'src': mtb,
+      'alt': 'M and T Bank logo. Subtext saying Understanding what is important',
       'title': "Software Engineer Intern · M&T Bank",
       'text1': "At M&T Bank, another intern and I worked on building an internal Full Stack application from scratch using Spring Boot, Angular, and SQL. I worked mostly on the authentication and back end services.",
       'url': "https://www3.mtb.com/careers/technology-internship-program"
     },
     {
-      'src': vanguard,
-      'alt': 'Card image',
+      'src': ritcs,
+      'alt': 'Computer Science Department building',
       'title': "CS Homework Grader · RIT",
       'text1': "I prepared weekly Python scripts and grading scales to automate the grading of 47 students’ homework assignments while boosting my ability to give effective and detailed feedback and ability to explain technical concepts.",
       'url': "https://www.rit.edu/computing/department-computer-science"
     },
     {
-      'src': vanguard,
-      'alt': 'Card image',
+      'src': tufts,
+      'alt': 'Research poster titled Structural and Thermal Properties of Polyampholytes',
       'title': "Computational Physicist Research Intern · Tufts University",
-      'text1': "Worked within a team of 5 developers and 8 polymer researchers to simulate the wetting phenomena through a replicated contact angle experiment by developing a shape optimization program.",
+      'text1': "Worked within a team of 5 developers and 8 polymer researchers to simulate the wetting phenomena through a replicated contact angle experiment by developing a shape optimization program. Presented our findings.",
       'url': "https://sites.tufts.edu/softmattertheory/"
     }
   ]
@@ -77,7 +77,7 @@ export const Skills = () => {
               <Row xs={1} md={2} className="g-4">
                 {experienceData.map((experience, idx) => (
                   <Col key={idx}>
-                    <a href={experience.url} className="card-link">
+                    <a href={experience.url} target="_blank" rel="noopener noreferrer" className="card-link">
                     <Card bg='dark'
                       text='dark'
                       style={{cursor: "pointer"}}
