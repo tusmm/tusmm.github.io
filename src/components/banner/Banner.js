@@ -3,10 +3,9 @@ import './Banner.css'
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../../assets/img/laptop.png";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+import resume from "../../assets/Ryan-Ong-Resume.pdf";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -44,7 +43,7 @@ export const Banner = () => {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
-      setDelta(450);
+      setDelta(500);
     } else {
       setIndex(prevIndex => prevIndex + 1);
     }
@@ -59,12 +58,17 @@ export const Banner = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">welcome to my page</span>
-                  <h1>{`hey, I'm Ryan, a `} <span className="txt-rotate" dataPeriod="1000" data-rotate='["Student", "Developer"]'><span className="wrap">{text}</span>
+                  <h1>{`hi, I'm Ryan, `} <span className="txt-rotate" dataPeriod="1000" data-rotate='["Student", "Developer"]'><span className="wrap">{text}</span>
                   </span>
                   </h1>
                   <p>i'm a 4th year undergrad at Rochester Institute of Technology studying Computer Science and Communication</p>
                   <p>feel free to check out my projects and reach out &#128511;</p>
-                  
+                  <a href="#connect">
+                    <button>Let’s Connect</button>
+                  </a>
+                  <a href={resume} download>Resume
+                    <svg width="25px" height="25px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" class="h-1 w-1 text-white sm:h-1 sm:w-1"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                  </a>
                 </div>}
             </TrackVisibility>
           </Col>
