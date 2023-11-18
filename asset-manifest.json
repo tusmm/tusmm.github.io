@@ -1,15 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba2ea7e1.css",
-    "main.js": "/static/js/main.e5acb072.js",
+    "main.css": "/static/css/main.a560289f.css",
+    "main.js": "/static/js/main.23c640d6.js",
     "static/js/787.14f3b87b.chunk.js": "/static/js/787.14f3b87b.chunk.js",
+    "static/media/banner-bg.png": "/static/media/banner-bg.64a94c2387e02e99e290.png",
+    "static/media/love-at-first-bite.png": "/static/media/love-at-first-bite.0830ddfc07a3914b9759.png",
+    "static/media/qwerkey.png": "/static/media/qwerkey.81e937e361c87a1dda43.png",
+    "static/media/computing-departments-jumbotron.jpg": "/static/media/computing-departments-jumbotron.4510121100ef57755b46.jpg",
+    "static/media/tuftsposter.png": "/static/media/tuftsposter.da4a1f4fb0b5f76fad51.png",
+    "static/media/contact.png": "/static/media/contact.d79773c8902c99086762.png",
+    "static/media/vanguard-logo.jpeg": "/static/media/vanguard-logo.51db244360a232282808.jpeg",
+    "static/media/laptop.png": "/static/media/laptop.9a57d78c3d3284e9a6ea.png",
+    "static/media/hoppers.png": "/static/media/hoppers.764a16a3ea9d38a7fec4.png",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/M&TBank.jpg": "/static/media/M&TBank.c7da81260871ed25d193.jpg",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/symptom-tracker.jpg": "/static/media/symptom-tracker.d8554e2ee69312f4a020.jpg",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/wall-scraper.jpg": "/static/media/wall-scraper.e3cbabdd65c1679998bc.jpg",
+    "static/media/hits-to-fits.png": "/static/media/hits-to-fits.0144e111bffb98cc0450.png",
+    "static/media/nav-icon2.svg": "/static/media/nav-icon2.9813f4b2d74fc758cc0ddb3f9def9e0b.svg",
+    "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/index.html",
-    "main.ba2ea7e1.css.map": "/static/css/main.ba2ea7e1.css.map",
-    "main.e5acb072.js.map": "/static/js/main.e5acb072.js.map",
+    "main.a560289f.css.map": "/static/css/main.a560289f.css.map",
+    "main.23c640d6.js.map": "/static/js/main.23c640d6.js.map",
     "787.14f3b87b.chunk.js.map": "/static/js/787.14f3b87b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba2ea7e1.css",
-    "static/js/main.e5acb072.js"
+    "static/css/main.a560289f.css",
+    "static/js/main.23c640d6.js"
   ]
 }
