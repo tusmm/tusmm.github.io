@@ -2,7 +2,7 @@
 .project {
     padding: 80px 0;
     position: relative;
-    background-color: #353546;
+    background: linear-gradient(#353546,#9494bb);
   }
   .project h2 {
       font-size: 45px;
@@ -10,7 +10,7 @@
     text-align: center;
   }
   .project p {
-    color: #B8B8B8;
+    color: #dfdfdf;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;

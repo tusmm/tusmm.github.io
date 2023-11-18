@@ -67,7 +67,7 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="experience-bx wow zoomIn">
-              <h2>Experiences</h2>
+              <h2>Experience</h2>
               <p>here are some of my experiences<br></br>feel free to reach out with any questions :)</p>
 
               <Row xs={1} md={2} className="g-4">

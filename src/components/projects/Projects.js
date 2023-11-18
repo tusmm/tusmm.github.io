@@ -2,7 +2,6 @@ import './Projects.css'
 
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import colorSharp2 from "../../assets/img/color-sharp2.png";
 import qwerkey from "../../assets/img/qwerkey.png";
 import hitstofits from "../../assets/img/hits-to-fits.png";
 import lovefirstbite from "../../assets/img/love-at-first-bite.png";
@@ -67,10 +66,10 @@ export const Projects = () => {
                        className="nav-pills mb-5 justify-content-center align-items-center" 
                        id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first">Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="second">About</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content>
@@ -89,7 +88,7 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>I hope to use projects to both learn and contribute while doing. I'm going to be looking for and working on some cool projects, so stay tuned &#128526;</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
@@ -98,7 +97,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} alt='Background'></img>
     </section>
   )
 }
