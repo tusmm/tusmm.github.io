@@ -46,7 +46,7 @@
       width: 0;
       height: 100%;
       border-radius: 55px 0px 0px 55px;
-      background: linear-gradient(90.21deg, #AA367C -5.91%, #6854c2 111.58%);
+      background: linear-gradient(90.21deg, #e0d2db -5.91%, #5477c2 111.58%);
       top: 0;
       left: 0;
       z-index: -1;
@@ -58,7 +58,7 @@
     width: 0;
     height: 100%;
     border-radius: 0 55px 55px 0;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #6854c2 111.58%);
+    background: linear-gradient(90.21deg, #5477c2 -5.91%, #e0d2db 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -80,7 +80,7 @@
   .nav-link#projects-tabs-tab-second {
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 0 55px 55px 0;
-  }
+  } 
   
   .proj-imgbx {
     position: relative;
