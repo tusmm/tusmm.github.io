@@ -10,6 +10,7 @@ import { Footer } from "./components/footer/Footer";
 function App() {
   return (
     <div className="App">
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"></link>
       <NavBar />
       <Banner />
       <Skills />
