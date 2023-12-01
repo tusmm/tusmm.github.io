@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.01a2af27.css",
-    "main.js": "/static/js/main.09325e38.js",
+    "main.js": "/static/js/main.38470fdb.js",
     "static/js/787.14f3b87b.chunk.js": "/static/js/787.14f3b87b.chunk.js",
     "static/media/banner-bg.png": "/static/media/banner-bg.64a94c2387e02e99e290.png",
     "static/media/love-at-first-bite.png": "/static/media/love-at-first-bite.0830ddfc07a3914b9759.png",
@@ -10,7 +10,7 @@
     "static/media/tuftsposter.png": "/static/media/tuftsposter.da4a1f4fb0b5f76fad51.png",
     "static/media/contact.png": "/static/media/contact.d79773c8902c99086762.png",
     "static/media/vanguard-logo.jpeg": "/static/media/vanguard-logo.51db244360a232282808.jpeg",
-    "static/media/Ryan_Ong_Resume.pdf": "/static/media/Ryan_Ong_Resume.1119f32eed3bc8806dae.pdf",
+    "static/media/Ryan_Ong_Resume.pdf": "/static/media/Ryan_Ong_Resume.e424e3be36f34dd252d1.pdf",
     "static/media/laptop.png": "/static/media/laptop.9a57d78c3d3284e9a6ea.png",
     "static/media/hoppers.png": "/static/media/hoppers.764a16a3ea9d38a7fec4.png",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -24,11 +24,11 @@
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/index.html",
     "main.01a2af27.css.map": "/static/css/main.01a2af27.css.map",
-    "main.09325e38.js.map": "/static/js/main.09325e38.js.map",
+    "main.38470fdb.js.map": "/static/js/main.38470fdb.js.map",
     "787.14f3b87b.chunk.js.map": "/static/js/787.14f3b87b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01a2af27.css",
-    "static/js/main.09325e38.js"
+    "static/js/main.38470fdb.js"
   ]
 }
