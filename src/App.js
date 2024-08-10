@@ -8,7 +8,7 @@ function App() {
       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"></link>
     </div>
     // flex box?
-    // throw in assests,
+    // throw in assests, update reesume
     // left side information component
     // RIGHT SIDE contains a component on the right and left of a line
     //  the left contains dates and information
