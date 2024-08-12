@@ -1,11 +1,20 @@
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import './App.css';
+import { Info } from './components/info/Info';
 
 
 function App() {
   return (
     <div className="App">
       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"></link>
+      <div className="split left">
+        <Info />
+      </div>
+
+      <div className="split right">
+        <h1>rihght</h1>
+      </div>
     </div>
     // flex box?
     // throw in assests, update reesume
