@@ -2,6 +2,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
 import { Info } from './components/info/Info';
+import { About } from './components/about/About'
+import { Experiences } from './components/experiences/Experiences';
 
 
 function App() {
@@ -9,11 +11,14 @@ function App() {
     <div className="App">
       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"></link>
       <div className="split left">
+        <h1>left</h1>
         <Info />
       </div>
 
       <div className="split right">
-        <h1>rihght</h1>
+        <h1>right</h1>
+        <About />
+        <Experiences />
       </div>
     </div>
     // flex box?
