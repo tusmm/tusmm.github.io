@@ -4,7 +4,8 @@ import './App.css';
 import { Info } from './components/info/Info';
 import { About } from './components/about/About'
 import { Experiences } from './components/experiences/Experiences';
-
+import { Projects } from './components/projects/Projects';
+import { ProjectTable } from './components/projectTable/ProjectTable';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <h1>right</h1>
         <About />
         <Experiences />
+        <Projects />
+        <ProjectTable />
       </div>
     </div>
     // flex box?
@@ -30,7 +33,6 @@ function App() {
     // right side experiences component
     // experience box component
     // experience needs data/links
-    // PROJECT HIGHLIGHTS
     // projects component
     // project box component 
     // PROJECT TABLE
