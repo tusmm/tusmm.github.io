@@ -1,4 +1,6 @@
-# tusmm.github.io
+# Portfolio
+Huge design inspiration taken from https://brittanychiang.com/
+
 ![logo image](logo.png)
 ### Personal website
 Made with react and react-bootstrap.

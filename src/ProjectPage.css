@@ -1,0 +1,100 @@
+.project-page {
+    padding: 20px;
+    margin: 0 auto;
+    background-color: var(--bg-primary);
+    min-height: 100vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.project-table-container {
+    margin-top: 20px;
+    background-color: white;
+    background-color: var(--bg-primary);
+}
+
+.project-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    min-width: 400px;
+}
+
+.table-title, .table-subtitle {
+    color: var(--text-primary);
+}
+
+.table-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.project-table th {
+    color: var(--text-secondary);
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+
+.project-table td {
+    padding: 12px;
+    text-align: left;
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--bg-secondary);
+}
+
+.project-table td a {
+    text-decoration: none; 
+    color: var(--text-primary);
+}
+
+.project-table td:nth-child(1) {
+    color: var(--text-secondary)
+}
+
+.project-table td:nth-child(2) a:hover,
+.project-table td:nth-child(4) a:hover {
+    color: var(--accent);
+}
+
+.project-table th {
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.home-button {
+    margin-bottom: 20px;
+}
+  
+/* Responsive design */
+@media (max-width: 1080px) {
+    .project-table td:nth-child(3),
+    .project-table th:nth-child(3) {
+        display: none; 
+    }
+}
+
+@media (max-width: 768px) {
+    .project-page {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .project-title-link {
+        color: var(--text-primary);
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .project-title-link:hover {
+        color: var(--accent); 
+    }
+
+    .project-table th:nth-child(4),
+    .project-table td:nth-child(4) {
+        display: none; 
+    }
+
+
+}

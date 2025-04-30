@@ -1,83 +1,38 @@
-/************ Custom Font ************/
-@font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Bold.ttf');
-	font-weight: 700;
-}
-@font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Medium.ttf');
-	font-weight: 500;
-}
-@font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Book.ttf');
-	font-weight: 400;
+:root {
+    --bg-primary: #222831; /* var(--bg-primary) */
+    --bg-secondary: #393E46; /* var(--bg-secondary) */
+    --bg-tertiary: #8B949E; /* var(--bg-tertiary) */
+    --text-primary: #E6EDF3; /* var(--text-primary) */
+    --text-secondary: #B1BAC4; /* var(--text-secondary) */
+    --accent: #64FFDA; /* var(--accent) */
+    --hover: #80FFF3; /* var(--hover) */
+    
 }
 
-/************ Default Css ************/
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 75px;
-}
-
-body {
-  font-weight: 400;
-  overflow-x: hidden;
-  position: relative;
-  background-color: #121212 !important;
-  color: #fff !important;
-  font-family: 'Centra', sans-serif !important;
-}
-
-h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
-  line-height: normal;
 }
 
-p, a, li, button, ul {
-  margin: 0;
-  padding: 0;
-  line-height: normal;
-  text-decoration: none;
+body, html {
+  font-family: Arial, sans-serif;
+  height: 100%;
 }
 
-a:hover {
-  text-decoration: none;
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
-
-button {
-  border: 0;
-  background-color: transparent;
-}
-
-input:focus, textarea:focus, select:focus {
-  outline: none;
-}
-
-@media (min-width:1700px) {
-	main .container {
-		max-width: 100%;
-		padding: 0 150px;
-	}
-}
-
-p.success {
-	color: green;
-}
-
-p.danger {
-	color: red;
+#custom-cursor {
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(
+        rgba(255, 255, 255, 0.15) 0%,
+        rgba(255, 255, 255, 0) 70%,
+        rgba(34, 40, 49, 1) 100%,
+        transparent
+    );
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+    mix-blend-mode: screen;
+    transform: translate(-50%, -50%);
 }

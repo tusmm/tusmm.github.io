@@ -1,0 +1,8 @@
+.about-description {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    color: var(--text-secondary);
+    padding-bottom: 1rem;
+    padding-left: 20px;
+    line-height: 1.2;
+}
