@@ -1,7 +1,7 @@
 # Portfolio
 Huge design inspiration taken from https://brittanychiang.com/
 
-![logo image](logo.png)
+![logo image](./public/logo.png)
 ### Personal website
 Made with react and react-bootstrap.
 
