@@ -1,34 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.01a2af27.css",
-    "main.js": "/static/js/main.b16baed3.js",
-    "static/js/787.14f3b87b.chunk.js": "/static/js/787.14f3b87b.chunk.js",
-    "static/media/banner-bg.png": "/static/media/banner-bg.64a94c2387e02e99e290.png",
-    "static/media/love-at-first-bite.png": "/static/media/love-at-first-bite.0830ddfc07a3914b9759.png",
-    "static/media/qwerkey.png": "/static/media/qwerkey.81e937e361c87a1dda43.png",
-    "static/media/computing-departments-jumbotron.jpg": "/static/media/computing-departments-jumbotron.4510121100ef57755b46.jpg",
-    "static/media/tuftsposter.png": "/static/media/tuftsposter.da4a1f4fb0b5f76fad51.png",
-    "static/media/contact.png": "/static/media/contact.d79773c8902c99086762.png",
-    "static/media/vanguard-logo.jpeg": "/static/media/vanguard-logo.51db244360a232282808.jpeg",
-    "static/media/Ryan_Ong_Resume.pdf": "/static/media/Ryan_Ong_Resume.a16ad91ee4e1ce78b7c3.pdf",
-    "static/media/laptop.png": "/static/media/laptop.9a57d78c3d3284e9a6ea.png",
-    "static/media/hoppers.png": "/static/media/hoppers.764a16a3ea9d38a7fec4.png",
-    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
-    "static/media/M&TBank.jpg": "/static/media/M&TBank.c7da81260871ed25d193.jpg",
-    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
-    "static/media/symptom-tracker.jpg": "/static/media/symptom-tracker.d8554e2ee69312f4a020.jpg",
-    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/wall-scraper.jpg": "/static/media/wall-scraper.e3cbabdd65c1679998bc.jpg",
-    "static/media/hits-to-fits.png": "/static/media/hits-to-fits.0144e111bffb98cc0450.png",
-    "static/media/nav-icon2.svg": "/static/media/nav-icon2.9813f4b2d74fc758cc0ddb3f9def9e0b.svg",
-    "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "index.html": "/index.html",
-    "main.01a2af27.css.map": "/static/css/main.01a2af27.css.map",
-    "main.b16baed3.js.map": "/static/js/main.b16baed3.js.map",
-    "787.14f3b87b.chunk.js.map": "/static/js/787.14f3b87b.chunk.js.map"
+    "main.css": "/tusmm/tusmm.github.io/static/css/main.b29c086a.css",
+    "main.js": "/tusmm/tusmm.github.io/static/js/main.bab288b8.js",
+    "static/js/453.1407b060.chunk.js": "/tusmm/tusmm.github.io/static/js/453.1407b060.chunk.js",
+    "static/media/love-at-first-bite.png": "/tusmm/tusmm.github.io/static/media/love-at-first-bite.0830ddfc07a3914b9759.png",
+    "static/media/qwerkey.png": "/tusmm/tusmm.github.io/static/media/qwerkey.003ee01ae60749cc28db.png",
+    "static/media/Ryan_Ong_Resume.pdf": "/tusmm/tusmm.github.io/static/media/Ryan_Ong_Resume.9e307020eca08533b90c.pdf",
+    "static/media/illness-tracker.jpg": "/tusmm/tusmm.github.io/static/media/illness-tracker.d8554e2ee69312f4a020.jpg",
+    "static/media/wall-scraper.jpg": "/tusmm/tusmm.github.io/static/media/wall-scraper.e3cbabdd65c1679998bc.jpg",
+    "static/media/hits-to-fits.png": "/tusmm/tusmm.github.io/static/media/hits-to-fits.0144e111bffb98cc0450.png",
+    "static/media/portfolio.png": "/tusmm/tusmm.github.io/static/media/portfolio.6af3fef3c63345bb5ecb.png",
+    "index.html": "/tusmm/tusmm.github.io/index.html",
+    "main.b29c086a.css.map": "/tusmm/tusmm.github.io/static/css/main.b29c086a.css.map",
+    "main.bab288b8.js.map": "/tusmm/tusmm.github.io/static/js/main.bab288b8.js.map",
+    "453.1407b060.chunk.js.map": "/tusmm/tusmm.github.io/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01a2af27.css",
-    "static/js/main.b16baed3.js"
+    "static/css/main.b29c086a.css",
+    "static/js/main.bab288b8.js"
   ]
 }
