@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
+import RedirectHandler from './RedirectHandler';
 import HomePage from './HomePage';
 import ProjectPage from './ProjectPage';
 
@@ -23,13 +24,14 @@ const App: React.FC = () => {
     }, []);
 
     return (
-        <HashRouter>
-            <div id="custom-cursor"></div>
-            <Routes>
-                <Route path="/" element={<HomePage />} />
+        <BrowserRouter basename="/your-repo-name">
+            <RedirectHandler />
+                <div id="custom-cursor"></div>
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
                 <Route path="/projects" element={<ProjectPage />} />
             </Routes>
-        </HashRouter>
+        </BrowserRouter>
     );
 }
 
