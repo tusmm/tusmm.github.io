@@ -1,18 +1,13 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import "./Content.css";
 
 import About from "../about/About";
 import Experiences from "../experiences/Experiences";
 import Projects from "../projects/Projects";
-
+import { useRouteHandler } from "../../hooks/useRouterHandler";
 
 const Content: React.FC = () => {
-    const navigate = useNavigate();
-
-    const goToProjectPage = () => {
-        navigate("/projects");
-    }
+    const { handleRouteChange } = useRouteHandler();
 
     return (
         <div className="container">
@@ -22,7 +17,10 @@ const Content: React.FC = () => {
                     <Experiences />
                     <Projects />
                     <div>
-                        <button onClick={goToProjectPage} className="button">View All Projects</button>
+                        <button onClick={() => handleRouteChange('/projects')}
+                            className="view-projects-button">
+                            View All Projects
+                        </button>
                     </div>
                 </div>
                 

@@ -17,7 +17,7 @@
     max-width: 800px;
 }
 
-.button {
+.view-projects-button {
     padding: 10px 20px;
     background-color: #009879;
     color: white;
@@ -27,7 +27,7 @@
     transition: background-color 0.3s ease;
 }
 
-.button:hover {
+.view-projects-button:hover {
     background-color: #007c63;
 }
 
@@ -47,7 +47,7 @@
         display: none;
     }
 
-    .button {
+    .view-projects-button {
         margin-left: 20px;
     }
 }

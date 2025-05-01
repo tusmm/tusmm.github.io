@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 import './App.css';
 
 import RedirectHandler from './RedirectHandler';
@@ -24,12 +24,15 @@ const App: React.FC = () => {
     }, []);
 
     return (
-        <BrowserRouter basename="/your-repo-name">
+        <BrowserRouter basename="/">
             <RedirectHandler />
             <div id="custom-cursor"></div>
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/projects" element={<ProjectPage />} />
+                <Route path="*" element={<Navigate to="/projects" replace/>} />
+                <Route path="*"  element={<Navigate to="/" replace/>} />
+
             </Routes>
         </BrowserRouter>
     );
