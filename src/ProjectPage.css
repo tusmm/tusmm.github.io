@@ -110,7 +110,7 @@
     }
 
     .project-title-link:hover {
-        color: var(--accent); 
+        color: var(--accent);
     }
 
     .project-table th:nth-child(4),

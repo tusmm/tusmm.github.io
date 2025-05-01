@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
 import { IProject } from "./interfaces/IProject";
 import "./ProjectPage.css";
@@ -6,11 +7,28 @@ import { projectData } from "./data/projectData";
 
 function ProjectPage() {
     const navigate = useNavigate();
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        const handleResize = () => setWindowWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     // app is Home page
     const goToApp = () => {
         navigate("/");
     }
+
+    // apply an underline if link is present and width is <= 768px
+    const applyUnderline = (url: string | undefined) => {
+        if (url && windowWidth <= 768) {
+            return { textDecoration: 'underline' };
+        } else if (url && windowWidth > 768) {
+            return { textDecoration: 'none' };
+        }
+        return {};
+    };
 
     return (
         <div className="project-page">
@@ -41,7 +59,10 @@ function ProjectPage() {
                                     <td>{project.year}</td>
                                     <td>
                                         {project.url ? (
-                                            <a href={project.url} target="_blank" rel="noreferrer" className="project-title-link">
+                                            <a href={project.url} target="_blank" rel="noreferrer" 
+                                                className="project-title-link"
+                                                style={applyUnderline(project.url)}
+                                            >
                                                 {project.title}
                                             </a>
                                         ) : (

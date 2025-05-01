@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 import HomePage from './HomePage';
@@ -23,13 +23,13 @@ const App: React.FC = () => {
     }, []);
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <div id="custom-cursor"></div>
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/projects" element={<ProjectPage />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
