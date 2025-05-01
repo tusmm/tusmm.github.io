@@ -5,9 +5,16 @@
     min-height: 100vh;
     padding-left: 100px;
     padding-right: 100px;
+    width: 100%;
+}
+
+.project-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .project-table-container {
+    width: 100%;
     margin-top: 20px;
     background-color: white;
     background-color: var(--bg-primary);
