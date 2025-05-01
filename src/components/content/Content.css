@@ -46,4 +46,8 @@
     .content::-webkit-scrollbar {
         display: none;
     }
+
+    .button {
+        margin-left: 20px;
+    }
 }
