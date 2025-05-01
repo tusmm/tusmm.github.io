@@ -17,7 +17,7 @@ function ProjectPage() {
             <div className="project-page-container">
 
                 <div className="home-button">
-                    <button onClick={goToApp} className="button">Go to Home</button>
+                    <button onClick={goToApp} className="project-home-button">Go to Home</button>
                 </div>
                 <div className="table-title">
                     <h1>Projects</h1>
