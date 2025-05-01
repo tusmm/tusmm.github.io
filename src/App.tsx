@@ -26,9 +26,9 @@ const App: React.FC = () => {
     return (
         <BrowserRouter basename="/your-repo-name">
             <RedirectHandler />
-                <div id="custom-cursor"></div>
-                <Routes>
-                    <Route path="/" element={<HomePage />} />
+            <div id="custom-cursor"></div>
+            <Routes>
+                <Route path="/" element={<HomePage />} />
                 <Route path="/projects" element={<ProjectPage />} />
             </Routes>
         </BrowserRouter>
