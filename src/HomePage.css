@@ -1,11 +1,13 @@
-.container {
+.homepage-container {
     display: flex;
     height: 100vh;
 }
 
+
+
 /* move left panel to top on smaller screens */
 @media (max-width: 768px) {
-    .container {
+    .homepage-container {
         flex-direction: column;
         height: auto;
     }

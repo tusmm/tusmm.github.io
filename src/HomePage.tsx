@@ -4,7 +4,7 @@ import Content from './components/content/Content';
 
 function HomePage() {
     return (
-        <div className="container">
+        <div className="homepage-container">
             <Header />
             <Content />
         </div>
