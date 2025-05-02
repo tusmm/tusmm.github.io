@@ -7,7 +7,7 @@ import { IProject } from "../../interfaces/IProject";
 const Project: React.FC<{ project: IProject }> = ({ project }) => {
     return (
         <div className="project">
-            <a href={project.url} className="project-link">
+            <a href={project.url} target="_blank" className="project-link">
                 <div className="project-image">
                     <img 
                         src={require(`../../assets/${project.image}`)}
