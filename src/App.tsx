@@ -28,7 +28,6 @@ const App: React.FC = () => {
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/projects" element={<ProjectPage />} />
-                <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
         </BrowserRouter>
     );
