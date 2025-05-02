@@ -5,7 +5,7 @@ import { IExperience } from '../../interfaces/IExperience';
 const Experience: React.FC<{ experience: IExperience }> = ({ experience }) => {
     return (
         <div className="experience">
-            <a href={experience.url} className="experience-link">
+            <a href={experience.url} target="_blank" className="experience-link">
                 <div className="experience-timeline">
                     <div className="experience-date">
                         {experience.date}
