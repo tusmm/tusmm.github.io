@@ -8,9 +8,25 @@ const RedirectHandler: React.FC = () => {
   useEffect(() => {
     const searchParams = new URLSearchParams(location.search);
     const redirectPath = searchParams.get('redirect');
-    
+
     if (redirectPath) {
       navigate(redirectPath, { replace: true });
+      return;
+    }
+
+    // Normalize the path
+    const { pathname, search, hash } = location;
+
+    const normalizedPath = pathname
+      .replace(/\/{2,}/g, '/') // Collapse multiple slashes
+      .replace(/\/+$/, '');    // Remove trailing slash
+
+    const finalPath = normalizedPath === '' ? '/' : normalizedPath;
+    const cleanedUrl = `${finalPath}${search}${hash}`;
+
+    // Redirect only if the cleaned URL git s
+    if (pathname !== finalPath) {
+      navigate(cleanedUrl, { replace: true });
     }
   }, [navigate, location]);
 

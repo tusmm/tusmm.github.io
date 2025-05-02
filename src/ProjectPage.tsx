@@ -1,4 +1,4 @@
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 import { IProject } from "./interfaces/IProject";
@@ -8,15 +8,6 @@ import { projectData } from "./data/projectData";
 function ProjectPage() {
     const navigate = useNavigate();
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-    const location = useLocation();
-
-    useEffect(() => {
-        const normalizedPath = location.pathname.replace(/\/+$/, "");
-        if (location.pathname !== normalizedPath) {
-            navigate(normalizedPath || "/", { replace: true });
-        }
-    }, [location, navigate]);
-
 
     useEffect(() => {
         const handleResize = () => setWindowWidth(window.innerWidth);
