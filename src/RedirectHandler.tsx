@@ -8,8 +8,8 @@ const RedirectHandler: React.FC = () => {
   useEffect(() => {
     const searchParams = new URLSearchParams(location.search);
     const redirectPath = searchParams.get('redirect');
-    
-    if (redirectPath) {
+  
+    if (redirectPath && location.pathname === '/') {
       navigate(redirectPath, { replace: true });
     }
   }, [navigate, location]);
