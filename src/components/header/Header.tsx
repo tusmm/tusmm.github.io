@@ -15,7 +15,7 @@ const Header: React.FC = () => {
                         <p>Application Developer - Cloud Consultant</p>
                     </div>
                     <div className="resume-button">
-                        <a href={require(`../../assets/Ryan_Ong_Resume.pdf`)}
+                        <a href={require(`../../assets/Ryan_Ong___Resume.pdf`)}
                             download="Ryan Ong - Resume.pdf">
                                 Resume <FontAwesomeIcon icon={faDownload} />
                         </a>
