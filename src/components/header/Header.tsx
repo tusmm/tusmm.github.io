@@ -13,6 +13,7 @@ const Header: React.FC = () => {
                     <div className="header-text">
                         <h1>Ryan Ong</h1>
                         <p>Application Developer - Cloud Consultant</p>
+                        <p>@ Amazon Web Services</p>
                     </div>
                     <div className="resume-button">
                         <a target="_blank" rel="noopener noreferrer" href={require(`../../assets/Ryan_Ong___Resume.pdf`)}
