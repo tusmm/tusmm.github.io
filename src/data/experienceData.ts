@@ -57,7 +57,7 @@ export const experienceData: IExperience[] = [
     },
     {
         role: "Computational Physicist Research Intern",
-        location: "Middlesex, MA",
+        location: "Medford, MA",
         businessName: "Tufts University",
         date: "Aug 2022 - Dec 2022",
         description: "Worked within a team of 5 developers and 8 polymer researchers to simulate the wetting phenomena through a replicated contact angle experiment by developing a shape optimization program using Morpho Presented my theoretical results and program to a group of 30, made up of the Tufts Polymer Research Team, chemical research professors, and graduate student researchers.",
