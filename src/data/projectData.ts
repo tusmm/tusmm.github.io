@@ -22,7 +22,7 @@ export const projectData: IProject[] = [
         year: 2022,
         description: "Worked with a team of four people to develop a mobile app that promotes eating at local/minority-owned restaurants through a like/dislike matching system. Used React Native and Google Firebase to create the app's functionality on both IOS and Android platforms. Showcased and demoed this project to M&T Software Engineers and won best UI/UX.",
         technologies: ["Flask", "React Native", "Python", "HTML & CSS"],
-        url: "https://devpost.com/software/hits-to-fits",
+        url: "https://devpost.com/software/love-first-bite",
         image: "love-at-first-bite.png",
     },
     {
